@@ -8,7 +8,7 @@ This repository will contain the codes associated with [_Realistic clustering pa
 
 
 
-[_Realistic clustering patterns in directed geometric networks_]: https://github.com/networkgeometry/directedS1
+[_Realistic clustering patterns in directed geometric networks_]: https://github.com/networkgeometry/directed-geometric-networks
 [A. Allard]: http://antoineallard.info
 [M. Á. Serrano]: http://morfeo.ffn.ub.es/mariangeles/
 [M. Boguñá]: http://complex.ffn.ub.es/~mbogunya/
