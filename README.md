@@ -37,6 +37,7 @@ python extract_edgelists.py
 Details on how the results and the figures were generated are provided in the following notebooks
 - [plot_figure_real_networks_reciprocity_vs_clustering.ipynb](python_scripts/plot_figure_real_networks_reciprocity_vs_clustering.ipynb)
 - [plot_figure_reciprocity_real_vs_synthetic.ipynb](python_scripts/plot_figure_reciprocity_real_vs_synthetic.ipynb)
+- [plot_figure_synthetic_networks_global_properties.ipynb](python_scripts/plot_figure_synthetic_networks_global_properties.ipynb)
 - [plot_figure_synthetic_networks_reciprocity_vs_clustering.ipynb](python_scripts/plot_figure_synthetic_networks_reciprocity_vs_clustering.ipynb)
 - [plot_figure_triangle_spectrum.ipynb](python_scripts/plot_figure_triangle_spectrum.ipynb)
 - [plot_figure_validation_degree.ipynb](python_scripts/plot_figure_validation_degree.ipynb)
