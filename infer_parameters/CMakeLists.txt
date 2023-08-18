@@ -5,8 +5,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 
-include_directories(src/base_graph/include)
+include_directories(src/BaseGraph/include)
 
-add_subdirectory(src/base_graph/src)
+add_subdirectory(src/BaseGraph/src)
 
 add_subdirectory(src)

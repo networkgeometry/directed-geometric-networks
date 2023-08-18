@@ -1,11 +1,11 @@
 add_executable(extract_network_properties extract_network_properties.cpp)
-target_link_libraries(extract_network_properties ${CMAKE_SOURCE_DIR}/src/base_graph/src/libBaseGraph.a)
+target_link_libraries(extract_network_properties ${CMAKE_SOURCE_DIR}/src/BaseGraph/src/libBaseGraph.a)
 
 add_executable(extract_joint_degree_sequence extract_joint_degree_sequence.cpp)
-target_link_libraries(extract_joint_degree_sequence ${CMAKE_SOURCE_DIR}/src/base_graph/src/libBaseGraph.a)
+target_link_libraries(extract_joint_degree_sequence ${CMAKE_SOURCE_DIR}/src/BaseGraph/src/libBaseGraph.a)
 
 add_executable(extract_marginal_degree_dist extract_marginal_degree_dist.cpp)
-target_link_libraries(extract_marginal_degree_dist ${CMAKE_SOURCE_DIR}/src/base_graph/src/libBaseGraph.a)
+target_link_libraries(extract_marginal_degree_dist ${CMAKE_SOURCE_DIR}/src/BaseGraph/src/libBaseGraph.a)
 
 add_executable(extract_network_properties_no_triangles extract_network_properties_no_triangles.cpp)
-target_link_libraries(extract_network_properties_no_triangles ${CMAKE_SOURCE_DIR}/src/base_graph/src/libBaseGraph.a)
+target_link_libraries(extract_network_properties_no_triangles ${CMAKE_SOURCE_DIR}/src/BaseGraph/src/libBaseGraph.a)
