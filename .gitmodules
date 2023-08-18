@@ -1,0 +1,3 @@
+[submodule "BaseGraph"]
+	path = BaseGraph
+	url = https://github.com/BaseGraph/BaseGraph.git
