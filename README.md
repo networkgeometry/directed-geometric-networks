@@ -1,6 +1,6 @@
 # Geometric description of clustering in directed networks
 
-This repository contains the codes associated with [_Geometric description of clustering in directed networks_](https://arxiv.org/abs/2302.09055) by [A. Allard], [M. Á. Serrano] and [M. Boguñá].
+This repository contains the code associated with [_Geometric description of clustering in directed networks_](https://arxiv.org/abs/2302.09055) by [A. Allard], [M. Á. Serrano] and [M. Boguñá].
 
 
 ## Installation
