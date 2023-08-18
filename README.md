@@ -9,24 +9,24 @@ Installing and running this code requires [`CMake`](https://cmake.org/) and Pyth
 
 1. Clone this repository with the option `--recurse-submodules`
 ```
-git clone --recurse-submodules https://github.com/antoineallard/directedS1.git
+git clone --recurse-submodules https://github.com/directed-geometric-networks/directedS1.git
 ```
 
 2. Copy the `directedS1_data` subdirectory out of the project's root directory.
 ```
-cp -R directedS1/directedS1_data .
+cp -R directed-geometric-networks/directed-geometric-networks_data .
 ```
 
 3. Compile the executables
 ```
-cd directedS1/analyze_networks; cmake .; make; cd ../..
-cd directedS1/infer_parameters; cmake .; make; cd ../..
+cd directed-geometric-networks/analyze_networks; cmake .; make; cd ../..
+cd directed-geometric-networks/infer_parameters; cmake .; make; cd ../..
 ```
 
 
 ## Real-world network data
 
-Real-world network data was downloaded from [Netzschleuder](https://networks.skewed.de/). Each dataset was downloaded in the GraphML format (`.xml.zst`) in the directory `directedS1_data/real_networks/rough_data/netzschleuder/` and extracted in the proper format by running
+Real-world network data was downloaded from [Netzschleuder](https://networks.skewed.de/). Each dataset was downloaded in the GraphML format (`.xml.zst`) in the directory `directed-geometric-networks_data/real_networks/rough_data/netzschleuder/` and extracted in the proper format by running
 ```
 python extract_edgelists.py
 ```
@@ -35,12 +35,12 @@ python extract_edgelists.py
 ## Generating the results and producing the figures
 
 Details on how the results and the figures were generated are provided in the following notebooks
-- [plot_figure_real_networks_reciprocity_vs_clustering.ipynb](https://github.com/antoineallard/directedS1/blob/main/python_scripts/plot_figure_real_networks_reciprocity_vs_clustering.ipynb)
-- [plot_figure_reciprocity_real_vs_synthetic.ipynb](https://github.com/antoineallard/directedS1/blob/main/python_scripts/plot_figure_reciprocity_real_vs_synthetic.ipynb)
-- [plot_figure_synthetic_networks_reciprocity_vs_clustering.ipynb](https://github.com/antoineallard/directedS1/blob/main/python_scripts/plot_figure_synthetic_networks_reciprocity_vs_clustering.ipynb)
-- [plot_figure_triangle_spectrum.ipynb](https://github.com/antoineallard/directedS1/blob/main/python_scripts/plot_figure_triangle_spectrum.ipynb)
-- [plot_figure_validation_degree.ipynb](https://github.com/antoineallard/directedS1/blob/main/python_scripts/plot_figure_validation_degree.ipynb)
-- [plot_figure_validation_reciprocity.ipynb](https://github.com/antoineallard/directedS1/blob/main/python_scripts/plot_figure_validation_reciprocity.ipynb)
+- [plot_figure_real_networks_reciprocity_vs_clustering.ipynb](python_scripts/plot_figure_real_networks_reciprocity_vs_clustering.ipynb)
+- [plot_figure_reciprocity_real_vs_synthetic.ipynb](python_scripts/plot_figure_reciprocity_real_vs_synthetic.ipynb)
+- [plot_figure_synthetic_networks_reciprocity_vs_clustering.ipynb](python_scripts/plot_figure_synthetic_networks_reciprocity_vs_clustering.ipynb)
+- [plot_figure_triangle_spectrum.ipynb](python_scripts/plot_figure_triangle_spectrum.ipynb)
+- [plot_figure_validation_degree.ipynb](python_scripts/plot_figure_validation_degree.ipynb)
+- [plot_figure_validation_reciprocity.ipynb](python_scripts/plot_figure_validation_reciprocity.ipynb)
 
 
 ## Paper
