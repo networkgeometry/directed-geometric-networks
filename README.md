@@ -9,7 +9,7 @@ Installing and running this code requires [`CMake`](https://cmake.org/) and Pyth
 
 1. Clone this repository with the option `--recurse-submodules`
 ```
-git clone --recurse-submodules https://github.com/directed-geometric-networks/directedS1.git
+git clone --recurse-submodules https://github.com/networkgeometry/directed-geometric-networks.git
 ```
 
 2. Copy the `directedS1_data` subdirectory out of the project's root directory.
