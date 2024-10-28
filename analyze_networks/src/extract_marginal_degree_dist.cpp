@@ -30,6 +30,8 @@
 #include <algorithm>
 #include <fstream>
 #include <vector>
+#include <iomanip>
+
 
 #include "pgl/directedgraph.h"
 #include "pgl/inputoutput/inputoutput.h"
