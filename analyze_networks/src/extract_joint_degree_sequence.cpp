@@ -28,6 +28,8 @@
  */
 
 #include <fstream>
+#include <iomanip>
+
 
 #include "pgl/directedgraph.h"
 #include "pgl/inputoutput/inputoutput.h"
